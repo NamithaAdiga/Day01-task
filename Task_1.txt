@@ -1,0 +1,32 @@
+DAY 1
+
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1
+
+1.HTTP1.1 Uses text commands to complete request response cycle.
+2.HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+3.a server only serves content to a client device if the client asks for it.
+4.HTTP1.1 loads a single request for every TCP connection.
+
+
+HTTP2
+
+1.HTTP2 Uses binary commands(0's and 1's) to execute request response cycle
+2.HTTP/2 can send multiple requests for data in parallel over a single TCP connection.This is the most advanced feature of the 
+HTTP/2 protocol because it allows you to download web files This reduces additional round trip time (RTT), making your 
+website load faster without any optimization
+3.Efficient and robust in terms of processing of data between client and server.
+
+
+
+2.Write a blog about objects and its internal representation in Javascript
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. 
+That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+let school = {
+name : “Vivekananda School”,
+location : “Delhi”,
+established : “1971”
+}
